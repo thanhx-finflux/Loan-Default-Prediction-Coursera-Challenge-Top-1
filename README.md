@@ -41,6 +41,7 @@ This project built an ensemble model to predict loan default probability using r
 ### SHAP Analysis
 - Linear Logistic Regression Model
 <img width="789" height="940" alt="Image" src="https://github.com/user-attachments/assets/1951d182-e162-440d-a5f4-11a120e85843" />
+
 ```
 SHAP shows that the most influential features driving loan default predictions are:
 - InterestRate: Higher interest rates significantly increase the likelihood of loan default. This is matched by the high positive coefficient of 0.4979 for InterestRate in the logistic regression model, indicating that as interest rates rise, so does the risk of default. High rate often leads to higher monthly payments, which can strain borrowers' finances and increase default risk.
@@ -48,7 +49,7 @@ SHAP shows that the most influential features driving loan default predictions a
 - LowCreditFlag: Borrowers with low credit scores are at a significantly higher risk of defaulting on their loans. The logistic regression model's positive coefficient of 0.4991 for LowCreditFlag corroborates this finding, indicating that lower creditworthiness is a strong predictor of default.
 - EmploymentStability: Greater employment stability is associated with a lower risk of loan default. The negative coefficient of -0.3067 for EmploymentStability in the logistic regression model supports this, suggesting that borrowers with stable employment are less likely to default.
 - AgeGroup_25-34: Younger borrowers in the 25-34 age group have a higher likelihood of defaulting on their loans. This is consistent with the positive coefficient of 0.6799 for AgeGroup_25-34 in the logistic regression model, indicating that younger age is a risk factor for default.
-- CreditScorePerAge: A lower credit score relative to age increases the risk of default. The positive coefficient of 0.2622 for CreditScorePerAge in the logistic regression model supports this, suggesting that borrowers with low credit scores for their age are more likely to default.
+- CreditScorePerAge: A lower credit score relative to age increases the risk of default. The positive coefficient of 0.2622 for CreditScorePerAge in the logistic regression model supports this, indicating that borrowers with low credit scores relative to their age are more likely to default.
 - CreditLinePerAge: A higher number of credit lines relative to age increases default risk. The positive coefficient of 0.2435 for CreditLinePerAge in the logistic regression model supports this, indicating that borrowers with more debt per credit line are at higher risk of default.
 - EmploymentType_Unemployed: Unemployed borrowers are at a significantly higher risk of defaulting on their loans. The logistic regression model's positive coefficient of 0.4457 for EmploymentType_Unemployed corroborates this finding, indicating that unemployment is a strong predictor of default.
 - AgeGroup_18-24: The youngest borrowers in the 18-24 age group have the highest likelihood of defaulting on their loans. This is consistent with the positive coefficient of 0.7516 for AgeGroup_18-24 in the logistic regression model, indicating that being in this youngest age group is a significant risk factor for default.
