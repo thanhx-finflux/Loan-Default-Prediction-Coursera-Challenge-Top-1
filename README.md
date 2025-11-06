@@ -2,7 +2,7 @@
 
 Achieved 99th percentile in the [Data Science Coding Challenge: Loan Default Prediction](https://www.coursera.org/projects/data-science-coding-challenge-loan-default-prediction)
 
-Link to project coding file: [LoanDefaultPrediction.ipynb](https://hub.labs.coursera.org/connect/sharedczzkddsj?forceRefresh=false&path=%2Fnotebooks%2FLoanDefaultPrediction.ipynb&sessionMigrationMode=shadow)
+Link to project coding file on Chrome, Firefox: [LoanDefaultPrediction.ipynb](https://hub.labs.coursera.org/connect/sharedczzkddsj?forceRefresh=false&path=%2Fnotebooks%2FLoanDefaultPrediction.ipynb&sessionMigrationMode=shadow)
 
 This project built an ensemble model to predict loan default probability using real-world historical customers and financial features.
 
