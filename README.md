@@ -60,7 +60,7 @@ SHAP shows that the most influential features driving loan default predictions a
 <img width="787" height="940" alt="Image" src="https://github.com/user-attachments/assets/51f28db7-11b4-4d59-81aa-956b94e08b60" />
 
 - LightGBM Model
-- 
+
 <img width="787" height="940" alt="image" src="https://github.com/user-attachments/assets/b9e00516-863f-4d21-a9f0-5a2202011fc6" />
 
 ## Contact
